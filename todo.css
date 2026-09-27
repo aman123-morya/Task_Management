@@ -1,0 +1,78 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family:'segoe UI',Tahoma,Geneva,Verdana,Sans-serif;
+}
+
+body{
+    background-color:#f4f4f9;
+    display:flex;
+    justify-content:center;
+    padding-top:50px;
+}
+.app-container{
+    background:white;
+    padding:20px 30px;
+    border-radius:8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    
+}
+h1{
+    text-align: center;
+    margin-bottom:20px;
+    color:#333
+}
+.input-section{
+    display: flex;
+    gap: 10px;
+    margin-bottom:20px;
+}
+#todo-input{
+    flex:1;
+    padding:10px;
+    border:1px solid #211f1f;
+    border-radius: 4px;
+    outline: none;
+}
+#add-btn{
+    padding:10px 15px;
+    background-color: #85a728;
+    color:white;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+}
+#add-btn:hover{
+    background-color: #218838;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    padding:10px;
+    margin-bottom:10px;
+    border-radius:4px;
+    border:1px solid #eee;
+}
+.actions button{
+    margin-left: 5px;
+    padding:5px 10px;
+    border:none;
+    border-radius: 3px;
+    cursor:pointer;
+}
+.edit-btn{
+    background-color: #ffc107;
+    color:#333;
+}
+.delete-btn{
+    background-color: #dc3545;
+    color:white;
+}
